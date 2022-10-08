@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/contato.css">
+  <link rel="shortcut icon" href="./images/icones/favicon.png" type="image/x-icon">
+  <script src="./js/script.js"></script>
+  <title>Trufados e etc</title>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="caixa-topo">
+      <div class="logo">
+        <img src="./images/logo.png" alt="Logo Trufados">
+      </div>
+      <div class="pesquisar">
+        <img src="./images/pesquisa.png" alt="Pesquisar">
+      </div>
+      <div>
+
+        <label for="pesquisar"></label>
+        <input class="pesquisa" type="text" placeholder="      Pesquisar" id="nome" />
+      </div>
+      <div class="login">
+        <img src="./images/login.png" alt="Entrar">
+        <p><strong>Olá, seja bem-vindo,<br></strong>
+          Faça seu login ou Cadastre-se</p>
+      </div>
+      <div class="carrinho">
+        <img src="./images/carrinho.png" alt="Carrinho">
+        <p>0 itens<br>
+          R$0,00</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <input type="checkbox" id="checkbox-menu">
+      <label for="checkbox-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="somos.html">Quem Somos</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <div class="contato">
+      <form id="contatoForm" method="post" action="https://formspree.io/f/mjvzrpqg" target="_parent">
+          <h1>Fale Conosco</h1>
+          <p>Fale diretamente conosco para esclarecer duvidas e relatar problemas.<br>
+              Nossa equipe responderá o mais rápido possível.</p>
+          <div>
+              <label for="nome"></label>
+              <input type="text" placeholder="Nome" id="nomeId" name="Nome" required/>
+          </div>
+
+          <div>
+              <label for="fone"></label>
+              <input type="tel" placeholder="Telefone" id="telefone" name="Telefone" required/>
+          </div>
+
+          <div>
+              <label for="email"></label>
+              <input type="email" placeholder="Email" id="email" name="Email" required/>
+          </div>
+
+          <div>
+              <label for="msg"></label>
+              <textarea type="msg" placeholder="Mensagem" id="msg" name="Mensagem" required></textarea>
+          </div>
+
+          <div>
+            <input id="bt" type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+              <!-- <button type="submit" value="click" id="bt">ENVIAR</button> -->
+          </div>
+      </form>
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4982774261784!2d-43.334197985035885!3d-22.8210475850555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9964b38a4dfe47%3A0x4adabb3041e21840!2sSenac%20Iraj%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1664410582767!5m2!1spt-BR!2sbr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </div>
+  </main>
+
+  <footer>
+    <div id="returnToTop">
+      <a href="#">
+        <img src="./images/seta-top.png" height="40px" width="40px" alt="seta" /></a>
+    </div>
+
+    <div class="rodape">
+
+      <div class="pagamento">
+        <img src="./images/pagamentos.png">
+      </div>
+
+
+
+      <div class="social">
+
+        <a href="https://web.facebook.com/trufadoseetc"><img src="./images/facebook.png"><i class="facebook-f"></i></a>
+        <a href="https://www.instagram.com/trufadoseetc/"><img src="./images/instagram.png"><i
+            class="instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=%2B5521966057194&fbclid=IwAR3zREfaiQu5PWBhbXnavl9yrn5nc_U5iGGBO3sWabfvd-6NASiwgWgrYkQ"><img
+            src="./images/whatsapp.png"><i class="whatsapp"></i></a>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="rodape2">
+      <p>©Trufados e etc 2022 - Todos os direitos reservados.</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
