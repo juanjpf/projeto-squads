@@ -26,7 +26,7 @@ Utilizamos como base as aulas e códigos demostrados em aulas do curso e também
 Realizamos apenas uma versão, pois não tivemos tempo para mais atualizações ou mudanças.
 
 🖇️Foto da tela principal do site:
-![image](https://imageup.me/9er)
+![image](https://imageup.me/images/site-trufados.png)
 
 
 📌 Link do projeto no github Pages: https://juanjpf.github.io/projeto-squads/
